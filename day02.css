@@ -1,0 +1,223 @@
+body {
+    background: #F1EED9;
+}
+
+.box {
+    position: absolute;
+    margin: auto;
+    display: block;
+    margin-top: 5%;
+    width: 600px;
+    height: 420px;
+}
+
+.head {
+    position: absolute;
+    top: 16.5%;
+    left: 25%;
+    width: 50%;
+    height: 67%;
+    background: #FFC2CE;
+    border-radius: 50%;
+}
+
+.head-copy {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #FFC2CE;
+    border-radius: 50%;
+    z-index: 2;
+}
+
+.ear-left-upper {
+    position: absolute;
+    top: -10%;
+    left: -20%;
+    width: 50%;
+    height: 55%;
+    background: #FFC2CE;
+    border-radius: 50%;
+}
+
+.ear-left-lower {
+    position: absolute;
+    top: 20%;
+    left: -35%;
+    width: 60%;
+    height: 65%;
+    background: #FFC2CE;
+    border-radius: 50%;
+}
+
+.ear-right-upper {
+    position: absolute;
+    top: -10%;
+    right: -20%;
+    width: 50%;
+    height: 55%;
+    background: #FFC2CE;
+    border-radius: 50%;
+}
+
+.ear-right-lower {
+    position: absolute;
+    top: 20%;
+    right: -35%;
+    width: 60%;
+    height: 65%;
+    background: #FFC2CE;
+    border-radius: 50%;
+}
+
+.inner-ear {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    width: 80%;
+    height: 80%;
+    background: #80B3FF;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.eye-left {
+    position: absolute;
+    top: 25%;
+    left: 22%;
+    width: 25%;
+    height: 30%;
+    background: white;
+    border-radius: 50%;
+    z-index: 3;
+}
+
+.eye-right {
+    position: absolute;
+    top: 25%;
+    right: 22%;
+    width: 25%;
+    height: 30%;
+    background: white;
+    border-radius: 50%;
+    z-index: 3;
+}
+
+.pupil {
+    position: absolute;
+    top: 20%;
+    left: 2%;
+    width: 45%;
+    height: 45%;
+    background: black;
+    border-radius: 50%;
+    z-index: 4;
+}
+
+.trunk {
+    position: absolute;
+    width: 75%;
+    height: 75%;
+    top: 55%;
+    left: 12.5%;
+    z-index: 3;
+}
+
+.blop-1 {
+    position: absolute;
+    width: 25%;
+    height: 15%;
+    top: 5%;
+    left: 37.5%;
+    background: #FD6E8A;
+    border-radius: 50%;
+    z-index: 3;
+}
+
+.blop-2 {
+    position: absolute;
+    width: 25%;
+    height: 15%;
+    top: 17.5%;
+    left: 35%;
+    background: #FD6E8A;
+    border-radius: 50%;
+    z-index: 3;
+}
+
+.blop-3 {
+    position: absolute;
+    width: 25%;
+    height: 15%;
+    top: 30%;
+    left: 32.5%;
+    background: #FD6E8A;
+    border-radius: 50%;
+    z-index: 3;
+}
+
+.blop-4 {
+    position: absolute;
+    width: 25%;
+    height: 15%;
+    top: 42.5%;
+    left: 35%;
+    background: #FD6E8A;
+    border-radius: 50%;
+    z-index: 3;
+}
+
+.blop-5 {
+    position: absolute;
+    width: 25%;
+    height: 15%;
+    top: 55%;
+    left: 37.5%;
+    background: #FD6E8A;
+    border-radius: 50%;
+    z-index: 3;
+}
+
+.blop-6 {
+    position: absolute;
+    width: 25%;
+    height: 15%;
+    top: 67.5%;
+    left: 35%;
+    background: #FD6E8A;
+    border-radius: 50%;
+    z-index: 3;
+}
+
+.blop-end {
+    position: absolute;
+    width: 35%;
+    height: 20%;
+    top: 80%;
+    left: 30%;
+    background: #FD6E8A;
+    border-radius: 50%;
+    z-index: 3;
+}
+
+.nostril-left {
+    position: absolute;
+    width: 30%;
+    height: 20%;
+    top: 70%;
+    left: 15%;
+    background: #693726;
+    border-radius: 50%;
+    z-index: 4;
+}
+
+.nostril-right {
+    position: absolute;
+    width: 30%;
+    height: 20%;
+    top: 70%;
+    right: 15%;
+    background: #693726;
+    border-radius: 50%;
+    z-index: 4;
+}
