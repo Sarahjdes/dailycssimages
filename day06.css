@@ -1,0 +1,223 @@
+body {
+    background: #65dce1;
+}
+
+.box {
+    position: absolute;
+    margin: auto;
+    display: block;
+    margin-top: 0%;
+    width: 600px;
+    height: 600px;
+}
+
+.clock {
+    position: absolute;
+    margin: auto;
+    display: block;
+    width: 70%;
+    height: 70%;
+    left: 15%;
+    top: 10%;
+    background: #660973;
+    border-radius: 100%;
+}
+
+.time-plate {
+    position: absolute;
+    width: 96%;
+    height: 96%;
+    left: 2%;
+    top: 2%;
+    background: #ffffff;
+    border-radius: 100%;
+}
+
+.smaller {
+    position: absolute;
+    width: 90%;
+    height: 90%;
+    left: 5%;
+    top: 5%;
+    background: #000000;
+    border-radius: 100%;
+}
+
+.center-pin {
+    position: absolute;
+    width: 5%;
+    height: 5%;
+    left: 47.5%;
+    top: 47.5%;
+    background: #660973;
+    border-radius: 100%;
+}
+
+.big-needle {
+    position: absolute;
+    width: 2%;
+    height: 30%;
+    left: 49%;
+    top: 20%;
+    background: #660973;
+}
+
+.small-needle {
+    position: absolute;
+    width: 2%;
+    height: 25%;
+    left: 60%;
+    top: 38%;
+    background: #660973;
+    transform: rotate(90deg);
+}
+
+.needle-point {
+    position: absolute;
+    width: 400%;
+    height: 10%;
+    left: -150%;
+    top: -5%;
+    background: #660973;
+    -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+
+}
+
+.thirty-needle {
+    position: absolute;
+    width: 2%;
+    height: 100%;
+    left: 50%;
+    top: 0%;
+    background: #660973;
+    transform: rotate(30deg);
+}
+
+.sixty-needle {
+    position: absolute;
+    width: 2%;
+    height: 100%;
+    left: 50%;
+    top: 0%;
+    background: #660973;
+    transform: rotate(60deg);
+
+}
+
+.onetwenty-needle {
+    position: absolute;
+    width: 2%;
+    height: 100%;
+    left: 50%;
+    top: 0%;
+    background: #660973;
+    transform: rotate(120deg);
+}
+
+.onefifty-needle {
+    position: absolute;
+    width: 2%;
+    height: 100%;
+    left: 50%;
+    top: 0%;
+    background: #660973;
+    transform: rotate(150deg);
+
+
+}
+.number {
+    position: absolute;
+    font-family: Courier New;
+    letter-spacing: -20px; 
+    width: 100%;
+    height: 100%;
+    color: #F84F78;
+    font-size: 400%;
+    /*background: #F9E50D;*/
+}
+
+.one {
+    position: absolute;
+    right: 29%;
+    top: 6%;
+    transform: rotate(30deg);
+}
+
+.two {
+    position: absolute;
+    right: 12%;
+    top: 20%;
+    transform: rotate(60deg);
+}
+
+.three {
+    position: absolute;
+    right: 3%;
+    top: 40%;
+    transform: rotate(90deg);
+}
+
+.four {
+    position: absolute;
+    right: 9%;
+    bottom: 24%;
+    transform: rotate(120deg);
+}
+
+.five {
+    position: absolute;
+    right: 25%;
+    bottom: 8%;
+    transform: rotate(150deg);
+}
+
+.six {
+    position: absolute;
+    right: 43%;
+    bottom: 1%;
+    transform: rotate(180deg);
+}
+
+.seven {
+    position: absolute;
+    left: 25%;
+    bottom: 5%;
+    transform: rotate(210deg);
+}
+
+.eight {
+    position: absolute;
+    left: 8%;
+    bottom: 19%;
+    transform: rotate(240deg);
+}
+
+.nine {
+    position: absolute;
+    left: 6%;
+    bottom: 38%;
+    transform: rotate(270deg);
+}
+
+.ten {
+    position: absolute;
+    left: 12%;
+    top: 23%;
+    transform: rotate(300deg);
+}
+
+.eleven {
+    position: absolute;
+    left: 25%;
+    top: 7%;
+    transform: rotate(330deg);
+}
+
+.twelve {
+    position: absolute;
+    left: 42%;
+    top: 1%;
+}
+
+/* Palette : http://www.colourlovers.com/palette/4449038/Permanent_Midnight_d /*
