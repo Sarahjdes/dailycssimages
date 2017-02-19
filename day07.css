@@ -1,0 +1,306 @@
+body {
+    background: #FFEFD5;
+}
+
+.box {
+    position: absolute;
+    margin: auto;
+    display: block;
+    margin-top: 0%;
+    width: 600px;
+    height: 600px;
+}
+
+.ruler {
+    position: absolute;
+    width: 25%;
+    height: 75%;
+    left: 15%;
+    top: 10%;
+}
+
+.ruler-copy {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #FCAB08;
+    -webkit-clip-path: polygon(100% 0%, 100% 100%, 50% 200%, 0% 0%);
+    clip-path: polygon(100% 0%, 90% 100%, 50% 200%, 0% 0%);
+}
+
+.hole {
+    position: absolute;
+    width: 20%;
+    height: 7%;
+    left: 47%;
+    bottom: 5%;
+    background: #FFEFD5;
+    border-radius: 50%;
+}
+
+.big-01 {
+    position: absolute;
+    width: 13%;
+    height: 2%;
+    right: 0%;
+    top: 5%;
+    background: #000000;
+}
+
+.big-02 {
+    position: absolute;
+    width: 13%;
+    height: 2%;
+    right: 2%;
+    top: 25%;
+    background: #000000;
+}
+
+.big-03 {
+    position: absolute;
+    width: 13%;
+    height: 2%;
+    right: 4%;
+    top: 45%;
+    background: #000000;
+}
+
+.big-04 {
+    position: absolute;
+    width: 13%;
+    height: 2%;
+    right: 6%;
+    top: 65%;
+    background: #000000;
+}
+
+.big-05 {
+    position: absolute;
+    width: 13%;
+    height: 2%;
+    right: 8%;
+    top: 85%;
+    background: #000000;
+}
+
+.division-1 {
+    position: absolute;
+    width: 100%;
+    height: 20%;
+    right: 0%;
+    top: 5%;
+}
+
+.division-2 {
+    position: absolute;
+    width: 100%;
+    height: 20%;
+    right: 2%;
+    top: 25%;
+}
+
+.division-3 {
+    position: absolute;
+    width: 100%;
+    height: 20%;
+    right: 4%;
+    top: 45%;
+}
+
+.division-4 {
+    position: absolute;
+    width: 100%;
+    height: 20%;
+    right: 6%;
+    top: 65%;
+}
+
+.short-01 {
+    position: absolute;
+    width: 7%;
+    height: 10%;
+    right: 0%;
+    top: 20%;
+    background: #000000;
+}
+
+.short-02 {
+    position: absolute;
+    width: 7%;
+    height: 10%;
+    right: 1%;
+    top: 40%;
+    background: #000000;
+}
+
+.short-03 {
+    position: absolute;
+    width: 7%;
+    height: 10%;
+    right: 1%;
+    top: 60%;
+    background: #000000;
+}
+
+.short-04 {
+    position: absolute;
+    width: 7%;
+    height: 10%;
+    right: 2%;
+    top: 80%;
+    background: #000000;
+}
+
+.ruler-face {
+    position: absolute;
+    width: 50%;
+    height: 20%;
+    left: 25%;
+    top: 5%;
+}
+
+.eye-left {
+    position: absolute;
+    width: 35%;
+    height: 30%;
+    left: 17%;
+    top: 10%;
+    background: #ffffff;
+    border-radius: 50%;
+}
+
+.eye-right {
+    position: absolute;
+    width: 35%;
+    height: 30%;
+    right: 17%;
+    top: 10%;
+    background: #ffffff;
+    border-radius: 50%;
+}
+
+.pupil {
+    position: absolute;
+    width: 30%;
+    height: 30%;
+    left: 35%;
+    top: 35%;
+    background: #000000;
+    border-radius: 50%;
+}
+
+.mouth {
+    position: absolute;
+    width: 40%;
+    height: 35%;
+    left: 30%;
+    top: 50%;
+    background: #000000;
+    border-radius: 50%;
+    clip-path: circle(35% at 65% 10%);
+}
+
+.rock {
+    position: absolute;
+    width: 35%;
+    height: 30%;
+    right: 10%;
+    bottom: 15%;
+}
+
+.rock-copy {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: grey;
+    clip-path: polygon(85% 15%, 100% 35%, 100% 75%, 75% 100%, 25% 100%, 0% 70%, 5% 25%, 20% 10%, 50% 0%);
+    -webkit-clip-path: polygon(85% 15%, 100% 35%, 100% 75%, 75% 100%, 25% 100%, 0% 70%, 5% 25%, 20% 10%, 50% 0%);
+}
+
+.rock-face {
+    position: absolute;
+    width: 40%;
+    height: 50%;
+    left: 20%;
+    top: 20%;
+}
+
+.speech-bubble-ruler {
+    position: absolute;
+    width: 150%;
+    height: 30%;
+    left: 125%;
+    top: -10%;
+}
+
+.bubble-ruler {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #ffffff;
+    border-radius: 50%;
+}
+
+.bubble-triangle-ruler {
+    position: absolute;
+    width: 20%;
+    height:30%;
+    left: -10%;
+    bottom: 30%;
+    background: #ffffff;
+    clip-path: polygon(50% 0%, 100% 100%, 0% 100%);
+    -webkit-clip-path: polygon(50% 0%, 100% 100%, 0% 100%);
+    transform: rotate(15deg);
+}
+
+.bubble-text-ruler {
+    position: absolute;
+    font-family: "Comic Sans MS";
+    text-align: center;
+    font-size: 225%;
+    max-width: 100%;
+    line-height: 1;
+    left: 0%;
+    top: 25%;
+}
+
+.speech-bubble-rock {
+    position: absolute;
+    width: 150%;
+    height: 75%;
+    left: -25%;
+    top: -90%;
+}
+
+.bubble-rock {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #ffffff;
+    border-radius: 50%;
+}
+
+.bubble-triangle-rock {
+    position: absolute;
+    width: 20%;
+    height:30%;
+    left: 30%;
+    bottom: -20%;
+    background: #ffffff;
+    clip-path: polygon(50% 0%, 100% 100%, 0% 100%);
+    -webkit-clip-path: polygon(50% 0%, 100% 100%, 0% 100%);
+    transform: rotate(180deg);
+}
+
+.bubble-text-rock {
+    position: absolute;
+    font-family: "Comic Sans MS";
+    text-align: center;
+    font-size: 225%;
+    max-width: 90%;
+    line-height: 1;
+    left: 5%;
+    top: 20%;
+}
+
+/* Palette : http://www.colourlovers.com/palette/4450827/Papaya */
