@@ -1,0 +1,263 @@
+body {
+    background: #BB69B7;
+}
+
+.box {
+    position: absolute;
+    margin: auto;
+    display: block;
+    margin-top: 0%;
+    width: 600px;
+    height: 600px;
+}
+
+.notepad {
+    position: absolute;
+    width: 70%;
+    height: 65%;
+    left: 15%;
+    top: 15%;
+    background: #FFD402;
+}
+
+.notepad-copy {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #FFD402;
+    z-index: 0;
+}
+
+.shadow {
+    position: absolute;
+    width: 105%;
+    height: 109%;
+    background: #F3D95A;
+    z-index: -1;
+    clip-path: polygon(0% 0%, 96% 0%, 100% 10%, 100% 100%, 10% 100%, 0% 92%);
+    -webkit-clip-path: polygon(0% 0%, 96% 0%, 100% 10%, 100% 100%, 10% 100%, 0% 92%);
+}
+
+.wholes {
+    z-index: 2;
+}
+
+.whole-1 {
+    position: absolute;
+    width: 10%;
+    height: 10%;
+    left: 15%;
+    top: 5%;
+    background: #F3B825;
+    border-radius: 50%;
+}
+
+.whole-2 {
+    position: absolute;
+    width: 10%;
+    height: 10%;
+    left: 35%;
+    top: 5%;
+    background: #F3B825;
+    border-radius: 50%;
+}
+
+.whole-3 {
+    position: absolute;
+    width: 10%;
+    height: 10%;
+    left: 55%;
+    top: 5%;
+    background: #F3B825;
+    border-radius: 50%;
+}
+
+.whole-4 {
+    position: absolute;
+    width: 10%;
+    height: 10%;
+    left: 75%;
+    top: 5%;
+    background: #F3B825;
+    border-radius: 50%;
+}
+
+.pin {
+    position: absolute;
+    width: 45%;
+    height: 185%;
+    left: 30%;
+    top: -125%;
+}
+
+.pin-top {
+    position: absolute;
+    width: 100%;
+    height: 25%;
+    top: 0%;
+    background: silver;
+    border-radius: 50%;
+}
+
+.pin-middle {
+    position: absolute;
+    width: 100%;
+    height: 68%;
+    top: 14.5%;
+    background: silver;
+}
+
+.pin-bottom {
+    position: absolute;
+    width: 100%;
+    height: 25%;
+    bottom: 5%;
+    background: silver;
+    border-radius: 50%;
+}
+
+.line-1 {
+    position: absolute;
+    width: 100%;
+    height: 1%;
+    top: 20%;
+    background: #79A3CD;
+}
+
+.line-2 {
+    position: absolute;
+    width: 100%;
+    height: 1%;
+    top: 30%;
+    background: #79A3CD;
+}
+
+.line-3 {
+    position: absolute;
+    width: 100%;
+    height: 1%;
+    top: 40%;
+    background: #79A3CD;
+}
+
+.line-4 {
+    position: absolute;
+    width: 100%;
+    height: 1%;
+    top: 50%;
+    background: #79A3CD;
+}
+
+.line-5 {
+    position: absolute;
+    width: 100%;
+    height: 1%;
+    top: 60%;
+    background: #79A3CD;
+}
+
+.line-6 {
+    position: absolute;
+    width: 100%;
+    height: 1%;
+    top: 70%;
+    background: #79A3CD;
+}
+
+.line-7 {
+    position: absolute;
+    width: 100%;
+    height: 1%;
+    top: 80%;
+    background: #79A3CD;
+}
+
+.line-8 {
+    position: absolute;
+    width: 100%;
+    height: 1%;
+    top: 90%;
+    background: #79A3CD;
+}
+
+.pencil {
+    position: absolute;
+    width: 65%;
+    height: 8%;
+    left: 20%;
+    bottom: 2%;
+}
+
+.pencil-main {
+    position: absolute;
+    width: 65%;
+    height: 100%;
+    left: 15%;
+    background: #F3B825;
+}
+
+.pencil-highlight {
+    position: absolute;
+    width: 100%;
+    height: 40%;
+    top: 30%;
+    background: #F7F731;
+}
+
+.pencil-tip {
+    position: absolute;
+    width: 15%;
+    height: 100%;
+    left: 0.25%;
+    clip-path: polygon(0% 50%, 100% 0%, 100% 100%);
+    -webkit-clip-path: polygon(0% 50%, 100% 0%, 100% 100%);
+}
+
+.pencil-tip-wood {
+    position: absolute;
+    width: 70%;
+    height: 100%;
+    right: 0%;
+    background: #FBF2C1;
+}
+
+.pencil-tip-lead {
+    position: absolute;
+    width: 30%;
+    height: 100%;
+    left: 5%;
+    background: #000000;
+}
+
+.pencil-eraser {
+    position: absolute;
+    width: 20%;
+    height: 100%;
+    right: 1%;
+}
+
+.pencil-eraser-rubber {
+    position: absolute;
+    width: 60%;
+    height: 100%;
+    right: 0%;
+    background: #F74646;
+    border-radius: 30%;
+}
+
+.pencil-eraser-metal {
+    position: absolute;
+    width: 60%;
+    height: 105%;
+    top: -2.5%;
+    background: silver;
+    border-radius: 5%;
+}
+
+.pencil-eraser-highlight {
+    position: absolute;
+    width: 40%;
+    height: 100%;
+    left: 30%;
+    background: lightgray;
+}
