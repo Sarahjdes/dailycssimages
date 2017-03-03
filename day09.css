@@ -1,0 +1,135 @@
+body {
+    background: #BADFF3;
+}
+
+.box {
+    position: absolute;
+    margin: auto;
+    display: block;
+    margin-top: 0%;
+    width: 600px;
+    height: 500px;
+}
+
+.calendar {
+    position: absolute;
+    width: 90%;
+    height: 80%;
+    left: 5%;
+    top: 10%;
+    font-family: "Andale Mono";
+    background: #EFE7C1;
+}
+
+.header {
+    position: absolute;
+    width: 90%;
+    height: 15%;
+    left: 5%;
+    top: 5%;
+    font-size: 324%;
+    background: #ffffff;
+}
+
+.week-1 {
+    position: absolute;
+    width: 90%;
+    height: 10%;
+    left: 5%;
+    top: 25%;
+}
+
+.week-2 {
+    position: absolute;
+    width: 90%;
+    height: 10%;
+    left: 5%;
+    top: 40%;
+}
+
+.week-3 {
+    position: absolute;
+    width: 90%;
+    height: 10%;
+    left: 5%;
+    top: 55%;
+}
+
+.week-4 {
+    position: absolute;
+    width: 90%;
+    height: 10%;
+    left: 5%;
+    top: 70%;
+}
+
+.week-5 {
+    position: absolute;
+    width: 90%;
+    height: 10%;
+    left: 5%;
+    top: 85%;
+}
+
+.sunday {
+    position: absolute;
+    width: 10%;
+    height: 100%;
+    left: 0%;
+    font-family: "Andale Mono";
+    background: #D0CAB1;
+}
+
+.monday {
+    position: absolute;
+    width: 10%;
+    height: 100%;
+    left: 15%;
+    font-family: "Andale Mono";
+    background: #D0CAB1;
+}
+
+.tuesday {
+    position: absolute;
+    width: 10%;
+    height: 100%;
+    left: 30%;
+    font-family: "Andale Mono";
+    background: #D0CAB1;
+}
+
+.wednesday {
+    position: absolute;
+    width: 10%;
+    height: 100%;
+    left: 45%;
+    font-family: "Andale Mono";
+    background: #D0CAB1;
+}
+
+.thursday {
+    position: absolute;
+    width: 10%;
+    height: 100%;
+    left: 60%;
+    font-family: "Andale Mono";
+    background: #D0CAB1;
+}
+
+.friday {
+    position: absolute;
+    width: 10%;
+    height: 100%;
+    left: 75%;
+    font-family: "Andale Mono";
+    background: #D0CAB1;
+}
+
+.saturday {
+    position: absolute;
+    width: 10%;
+    height: 100%;
+    left: 90%;
+    font-family: "Andale Mono";
+    background: #D0CAB1;
+}
