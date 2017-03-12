@@ -1,0 +1,121 @@
+body {
+    background: #14BED4;
+}
+
+.box {
+    position: absolute;
+    margin: auto;
+    display: block;
+    margin-top: 0%;
+    width: 500px;
+    height: 500px;
+}
+
+.pizza {
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    left: 10%;
+    top: 10%;
+    -web-clip-path: polygon(0% 0%, 100% 0%, 50% 100%);
+    clip-path: polygon(0% 0%, 100% 0%, 50% 100%);
+    background: #FF8200;
+    border-radius: 50%;
+    transform: rotate(15deg);
+}
+
+.sauce {
+    position: absolute;
+    width: 85%;
+    height: 85%;
+    left: 7.5%;
+    bottom: 0%;
+    -web-clip-path: polygon(0% 0%, 100% 0%, 50% 100%);
+    clip-path: polygon(0% 0%, 100% 0%, 50% 100%);
+    background: #C10000;
+    border-radius: 50%;
+}
+
+.cheese {
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    left: 10%;
+    bottom: 0%;
+    -web-clip-path: polygon(0% 0%, 100% 0%, 50% 100%);
+    clip-path: polygon(0% 0%, 100% 0%, 50% 100%);
+    background: #F0D890;
+    border-radius: 50%;
+}
+
+.pepperoni-1 {
+    position: absolute;
+    width: 10%;
+    height: 10%;
+    left: 25%;
+    bottom: 55%;
+    background: #860000;
+    border-radius: 50%;
+}
+
+.pepperoni-2 {
+    position: absolute;
+    width: 10%;
+    height: 10%;
+    left: 45%;
+    bottom: 65%;
+    background: #860000;
+    border-radius: 50%;
+}
+
+.pepperoni-3 {
+    position: absolute;
+    width: 10%;
+    height: 10%;
+    left: 60%;
+    bottom: 55%;
+    background: #860000;
+    border-radius: 50%;
+}
+
+.pepperoni-4 {
+    position: absolute;
+    width: 10%;
+    height: 10%;
+    left: 40%;
+    bottom: 45%;
+    background: #860000;
+    border-radius: 50%;
+}
+
+.pepperoni-5 {
+    position: absolute;
+    width: 10%;
+    height: 10%;
+    left: 55%;
+    bottom: 30%;
+    background: #860000;
+    border-radius: 50%;
+}
+
+.pepperoni-6 {
+    position: absolute;
+    width: 10%;
+    height: 10%;
+    left: 40%;
+    bottom: 25%;
+    background: #860000;
+    border-radius: 50%;
+}
+
+.pepperoni-7 {
+    position: absolute;
+    width: 10%;
+    height: 10%;
+    left: 45%;
+    bottom: 10%;
+    background: #860000;
+    border-radius: 50%;
+}
+
+/* http://www.colourlovers.com/palette/1714399/Pepperoni_Pizza */
